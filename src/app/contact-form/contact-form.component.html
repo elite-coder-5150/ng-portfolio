@@ -2,7 +2,10 @@
 <h1>get in touch</h1>
 <p class="sub-heading">We’d love to hear from you. Please fill out this form.</p>
 <div class="card">
-    <form action="#" class="contact-form">
+    <!-- 
+        idea use zod form for validating this form, because the buildin validation is not so good  looking
+    -->
+    <form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)" class="contact-form">
         <div class="row">
             <div class="form-group">
                 <label for="#">first name</label>
