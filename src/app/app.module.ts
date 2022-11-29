@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
 import { NewsletterFormComponent } from './newsletter-form/newsletter-form.component';
+import { SinglePortfolioItemComponent } from './single-portfolio-item/single-portfolio-item.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import { NewsletterFormComponent } from './newsletter-form/newsletter-form.compo
         HeaderComponent,
         FooterComponent,
         PortfolioItemComponent,
-        NewsletterFormComponent
+        NewsletterFormComponent,
+        SinglePortfolioItemComponent
     ],
     imports: [
         BrowserModule,
