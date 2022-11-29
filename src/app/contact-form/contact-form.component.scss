@@ -1,4 +1,5 @@
 @import "../../assets/global-styles/colors";
+@import "../../assets/global-styles/row";
 
 .supportive-text {
     color: $clr-primary;
@@ -91,11 +92,7 @@ h1 {
         width: 100%;
     }
 }
-.row {
-    display: flex;
-    width: 480px;
-    column-gap: 32px;
-}
+
 .card {
     // background: #fff; 
     max-width: 480px;
