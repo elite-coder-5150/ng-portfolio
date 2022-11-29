@@ -70,11 +70,16 @@ h1 {
     border: 1px solid $clr-primary;
     color: #fff;
     display: block;
-    font-size: 16px;
-    font-weight: 600;
+
+    font: {
+        size: 16px;
+        weight: 600;
+    }
     padding: 12px 0;
     letter-spacing: 1px;
     text-transform: capitalize;
+
+    border-radius: 8px;
 
     &:hover {
         cursor: pointer;
@@ -104,5 +109,17 @@ h1 {
 .full-width {
     width: 100%;
 }
+
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: $clr-placeholder-text;
+    width: 1.15rem;
+    height: 1.15rem;
+    border: 0.15rem solid $clr-border-base;
 
 }
