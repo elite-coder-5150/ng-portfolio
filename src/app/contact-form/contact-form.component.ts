@@ -10,7 +10,6 @@ import { ContactService } from '../services/contact.service';
 })
 export class ContactFormComponent implements OnInit {
     //? goto angular.io and find out how they create forms.
-    //? because they have the best documentation i have ever seen
     // @ts-ignore
     formData: FormGroup;
 
