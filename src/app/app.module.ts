@@ -9,6 +9,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioItemComponent } from './portfolio-item/portfolio-item.component';
+import { NewsletterFormComponent } from './newsletter-form/newsletter-form.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import { PortfolioItemComponent } from './portfolio-item/portfolio-item.componen
         ContactFormComponent,
         HeaderComponent,
         FooterComponent,
-        PortfolioItemComponent
+        PortfolioItemComponent,
+        NewsletterFormComponent
     ],
     imports: [
         BrowserModule,
