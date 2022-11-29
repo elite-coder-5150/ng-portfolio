@@ -1,0 +1,18 @@
+.supportive-text {
+  color: #8654E1;
+}
+
+.contact-form {
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 96px;
+}
+
+.card {
+  background: #fff;
+  width: 480px;
+}
