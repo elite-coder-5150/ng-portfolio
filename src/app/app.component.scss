@@ -3,13 +3,13 @@
     text-align: left;
 }
 
-h1 {
-    color: $clr-primary; 
+
+
+.box {
+    background: #999;
+    width: 420px;
+    height: 300px;
+    box-shadow: 0 0 10px 0 rgba(black, 0.15);
+
 }
 
-.portfolio {
-    .supportive-text {
-        color: $clr-primary;
-        text-align: center;
-    }
-}
