@@ -1,41 +1,28 @@
-@import "../global-styles/colors";
+@import "colors";
+
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body {
-    display: grid;
-    height: 100vh;
-    width: 100%;
     font-family: "Inter", sans-serif;
-    // align-content: center; align vertically
-    justify-content: center; // allign horizontally
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    font-size: 36px;
-
-    margin: {
-        top: 6px;
-
-    }
-    &::first-letter {
-        text-transform: capitalize;
-    }
-}
-
-.sub-heading {
-    font-size: 20px;
-    color: $clr-sub-heading-text;
-    margin-top: 24px;
+    color: #000;
     text-align: center;
+    font-size: 48px;
+    text-transform: capitalize;
 }
 
-label {
-    display: inline-block;
-}
-
-input {
-    border: 0;
-}
